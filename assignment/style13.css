@@ -1,0 +1,89 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bgi.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+nav img{
+    height: 30px;
+    margin-left: 25px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.menu a:hover{
+    color: rgb(26, 178, 112);
+}
+.menu a{
+    color: #ffc233;
+    text-decoration: none;
+    font-weight: 600;
+}
+.order button{
+    padding: 3px 10px;
+    background-color: #ff505f;
+    color: #ffff;
+    font-size: 15px;
+    margin-right: 25px;
+    border: none;
+    font-weight: 700;
+}
+.order button:hover{
+    padding: 3px 10px;
+    background-color: chocolate;
+}
+section{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.heading{
+    font-style: normal;
+    font-size: 80px;
+    font-family: "Dela Gothic One", cursive;
+    font-weight: 900;
+    color: #ffc233;
+    line-height: 80px;
+}
+.btn button{
+    border: none;
+    padding: 10px 30px;
+    background-color: #ff505f;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; 
+}
+.btn button:hover{
+    padding: 10px 30px;
+    background-color: chocolate;
+}
+.scrool{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+.scrool img{
+    height: 150px;
+}
